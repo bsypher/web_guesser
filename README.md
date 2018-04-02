@@ -1,0 +1,1 @@
+This is a guessing game. Input a number and it will let you know if you guessed it correctly.  
