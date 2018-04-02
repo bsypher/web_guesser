@@ -1,8 +1,40 @@
+
+<!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+  	<meta charset = "UTF=8">
+  	<style>
+  		
+  		body {
+	background: <%= @color %>
+              }
+        header{
+        	 font:bold 30px Tahoma;
+        	 text-align: center;
+        }
+        p{
+        	font: bold 20px Tahoma;
+        	text-align: center;
+
+        }      
+        form{
+        	text-align: center;
+        }
+
+  	</style>
+  </head>
+  
   <body>
+  	<header> Guess the Number</header>
     <p>
-      The SECRET NUMBER is <%= number %>
+      <%= @message %>
     </p>
+  <form>
+  <input type='text' name='guess' />
+  <input type='submit' value='Guess!' />
+  
+   
+</form>
+
   </body>
 </html>
